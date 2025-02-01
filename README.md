@@ -1,6 +1,6 @@
 # file-selector
 
-Select and bundle files into single text output. Useful for sharing code with ChatGPT.
+Select and bundle files into single text output. Useful for sharing code with models like o1/o3 which don't accept file uploads.
 
 ## Usage
 
