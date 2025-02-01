@@ -10,10 +10,20 @@ python file_selector.py .py .txt
 
 Commands:
 ```
-e folder  # expand directory
-c folder  # collapse directory
-s 1 2 3   # select files
-q         # quit
+e d1       # expand directory number 1
+c d1       # collapse directory number 1
+ca         # collapse all directories
+s f1 f2    # toggle selection of files 1 and 2
+sd d1      # select all files in directory 1
+w          # write selection to output.txt
+q          # quit (writes output too)
+```
+
+Numbers are shown as:
+```
+[ ] d1. + folder/     # directory
+[*] f2. file.txt     # selected file
+[ ] f3. other.py     # unselected file
 ```
 
 ## Output
